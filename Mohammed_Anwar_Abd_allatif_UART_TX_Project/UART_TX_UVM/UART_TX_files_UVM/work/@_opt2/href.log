@@ -1,0 +1,30 @@
+BEGIN 1:uart_tx:fast:work
+    parity_bit :  1:uart_tx_assertions:fast:work
+    data_reg :  1:uart_tx_assertions:fast:work
+    counter :  1:uart_tx_assertions:fast:work
+    state :  1:uart_tx_assertions:fast:work
+END 
+BEGIN 3:uart_tx_if:fast__1:work
+    reset :  1:pack_mon:fast:work
+    Busy :  1:pack_mon:fast:work
+    DATA_VALID :  1:pack_mon:fast:work
+    PAR_EN :  1:pack_mon:fast:work
+    clk :  1:pack_mon:fast:work
+    TX_OUT_EXP :  1:pack_mon:fast:work
+    PAR_TYP :  1:pack_mon:fast:work
+    TX_OUT :  1:pack_mon:fast:work
+    Busy_exp :  1:pack_mon:fast:work
+    P_DATA :  1:pack_mon:fast:work
+END 
+BEGIN 3:uart_tx_if:fast__2:work
+    Busy_exp :  1:uart_tx_golden:fast:work
+    TX_OUT_EXP :  1:uart_tx_golden:fast:work
+    PAR_TYP :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+    TX_OUT :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work
+    P_DATA :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+    reset :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+    Busy :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work
+    DATA_VALID :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+    PAR_EN :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+    clk :  1:uart_tx:fast:work 1:uart_tx_assertions:fast:work 1:uart_tx_golden:fast:work
+END 

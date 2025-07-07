@@ -1,0 +1,282 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /uart_top/DUT/ASSERTION
+=== Design Unit: work.uart_tx_assertions
+=================================================================================
+
+Directive Coverage:
+    Directives                      15        15         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/c1               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(20)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c2               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(28)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c3               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(36)
+                                                                                21 Covered   
+/uart_top/DUT/ASSERTION/c4               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(44)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c5               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(54)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c6               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(62)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c7               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(70)
+                                                                                15 Covered   
+/uart_top/DUT/ASSERTION/c8               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(78)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c9               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(89)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c10              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(100)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c11              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(108)
+                                                                                22 Covered   
+/uart_top/DUT/ASSERTION/c12              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(117)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c13              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(126)
+                                                                                14 Covered   
+/uart_top/DUT/ASSERTION/c14              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(135)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c15              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(144)
+                                                                                15 Covered   
+
+=================================================================================
+=== Instance: /pack_coverage
+=== Design Unit: work.pack_coverage
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    97.22%
+        Coverpoints/Crosses          9        na        na        na
+            Covergroup Bins         41        40         1    97.56%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_coverage/uart_coverage/UART_CG             97.22%        100          -    Uncovered            
+    covered/total bins:                                    40         41          -                      
+    missing/total bins:                                     1         41          -                      
+    % Hit:                                             97.56%        100          -                      
+    Coverpoint cp_PAR_EN                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       947          1          -    Covered              
+        bin auto[1]                                       273          1          -    Covered              
+    Coverpoint cp_PAR_TYPE                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       608          1          -    Covered              
+        bin auto[1]                                       612          1          -    Covered              
+    Coverpoint cp_P_VALID                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1007          1          -    Covered              
+        bin auto[1]                                       212          1          -    Covered              
+    Coverpoint cp_P_DATA                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        ignore_bin u                                      970                     -    Occurred             
+        bin low_vals[0]                                     3          1          -    Covered              
+        bin low_vals[1]                                    46          1          -    Covered              
+        bin low_vals[2]                                    24          1          -    Covered              
+        bin low_vals[3]                                    42          1          -    Covered              
+        bin low_vals[4]                                    26          1          -    Covered              
+        bin low_vals[5]                                    53          1          -    Covered              
+        bin low_vals[6]                                    15          1          -    Covered              
+        bin low_vals[7]                                    41          1          -    Covered              
+    Coverpoint #seq_item_cov.TX_OUT__0#               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       144          1          -    Covered              
+        bin auto[1]                                      1076          1          -    Covered              
+    Coverpoint #seq_item_cov.Busy__1#                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       999          1          -    Covered              
+        bin auto[1]                                       221          1          -    Covered              
+    Cross cross_PAR_EN_PAR_TYPE                       100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                         130          1          -    Covered              
+            bin <auto[1],auto[0]>                         143          1          -    Covered              
+            bin <auto[0],auto[0]>                         465          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin invalid                            482                     -    Occurred             
+    Cross cross_P_DATA_P_VALID                        100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <low_vals[7],auto[1]>                      34          1          -    Covered              
+            bin <low_vals[6],auto[1]>                      13          1          -    Covered              
+            bin <low_vals[5],auto[1]>                      49          1          -    Covered              
+            bin <low_vals[4],auto[1]>                      23          1          -    Covered              
+            bin <low_vals[3],auto[1]>                      33          1          -    Covered              
+            bin <low_vals[2],auto[1]>                      18          1          -    Covered              
+            bin <low_vals[1],auto[1]>                      39          1          -    Covered              
+            bin <low_vals[0],auto[1]>                       1          1          -    Covered              
+            bin <low_vals[7],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[6],auto[0]>                       2          1          -    Covered              
+            bin <low_vals[5],auto[0]>                       4          1          -    Covered              
+            bin <low_vals[4],auto[0]>                       3          1          -    Covered              
+            bin <low_vals[3],auto[0]>                       9          1          -    Covered              
+            bin <low_vals[2],auto[0]>                       6          1          -    Covered              
+            bin <low_vals[1],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[0],auto[0]>                       1          1          -    Covered              
+    Cross cross_TX_OUT_BUSY                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                          77          1          -    Covered              
+            bin <auto[0],auto[1]>                         144          1          -    Covered              
+            bin <auto[1],auto[0]>                         999          1          -    Covered              
+            bin <auto[0],auto[0]>                           0          1          1    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_coverage/uart_coverage/UART_CG             97.22%        100          -    Uncovered            
+    covered/total bins:                                    40         41          -                      
+    missing/total bins:                                     1         41          -                      
+    % Hit:                                             97.56%        100          -                      
+    Coverpoint cp_PAR_EN                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       947          1          -    Covered              
+        bin auto[1]                                       273          1          -    Covered              
+    Coverpoint cp_PAR_TYPE                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       608          1          -    Covered              
+        bin auto[1]                                       612          1          -    Covered              
+    Coverpoint cp_P_VALID                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1007          1          -    Covered              
+        bin auto[1]                                       212          1          -    Covered              
+    Coverpoint cp_P_DATA                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        ignore_bin u                                      970                     -    Occurred             
+        bin low_vals[0]                                     3          1          -    Covered              
+        bin low_vals[1]                                    46          1          -    Covered              
+        bin low_vals[2]                                    24          1          -    Covered              
+        bin low_vals[3]                                    42          1          -    Covered              
+        bin low_vals[4]                                    26          1          -    Covered              
+        bin low_vals[5]                                    53          1          -    Covered              
+        bin low_vals[6]                                    15          1          -    Covered              
+        bin low_vals[7]                                    41          1          -    Covered              
+    Coverpoint #seq_item_cov.TX_OUT__0#               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       144          1          -    Covered              
+        bin auto[1]                                      1076          1          -    Covered              
+    Coverpoint #seq_item_cov.Busy__1#                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       999          1          -    Covered              
+        bin auto[1]                                       221          1          -    Covered              
+    Cross cross_PAR_EN_PAR_TYPE                       100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                         130          1          -    Covered              
+            bin <auto[1],auto[0]>                         143          1          -    Covered              
+            bin <auto[0],auto[0]>                         465          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin invalid                            482                     -    Occurred             
+    Cross cross_P_DATA_P_VALID                        100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <low_vals[7],auto[1]>                      34          1          -    Covered              
+            bin <low_vals[6],auto[1]>                      13          1          -    Covered              
+            bin <low_vals[5],auto[1]>                      49          1          -    Covered              
+            bin <low_vals[4],auto[1]>                      23          1          -    Covered              
+            bin <low_vals[3],auto[1]>                      33          1          -    Covered              
+            bin <low_vals[2],auto[1]>                      18          1          -    Covered              
+            bin <low_vals[1],auto[1]>                      39          1          -    Covered              
+            bin <low_vals[0],auto[1]>                       1          1          -    Covered              
+            bin <low_vals[7],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[6],auto[0]>                       2          1          -    Covered              
+            bin <low_vals[5],auto[0]>                       4          1          -    Covered              
+            bin <low_vals[4],auto[0]>                       3          1          -    Covered              
+            bin <low_vals[3],auto[0]>                       9          1          -    Covered              
+            bin <low_vals[2],auto[0]>                       6          1          -    Covered              
+            bin <low_vals[1],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[0],auto[0]>                       1          1          -    Covered              
+    Cross cross_TX_OUT_BUSY                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                          77          1          -    Covered              
+            bin <auto[0],auto[1]>                         144          1          -    Covered              
+            bin <auto[1],auto[0]>                         999          1          -    Covered              
+            bin <auto[0],auto[0]>                           0          1          1    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 97.22%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/c1               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(20)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c2               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(28)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c3               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(36)
+                                                                                21 Covered   
+/uart_top/DUT/ASSERTION/c4               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(44)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c5               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(54)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c6               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(62)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c7               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(70)
+                                                                                15 Covered   
+/uart_top/DUT/ASSERTION/c8               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(78)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c9               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(89)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c10              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(100)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c11              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(108)
+                                                                                22 Covered   
+/uart_top/DUT/ASSERTION/c12              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(117)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c13              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(126)
+                                                                                14 Covered   
+/uart_top/DUT/ASSERTION/c14              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(135)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c15              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(144)
+                                                                                15 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 15
+
+Total Coverage By Instance (filtered view): 98.61%
+

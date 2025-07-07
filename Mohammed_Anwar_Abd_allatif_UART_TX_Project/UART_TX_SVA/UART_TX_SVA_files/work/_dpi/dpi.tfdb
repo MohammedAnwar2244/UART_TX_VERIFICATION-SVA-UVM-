@@ -1,0 +1,13 @@
+VERSION 11 1 2
+SYM_BEGIN 2
+1 78
+D:/IEEE Verifiction/Final Project/UART_TX_SVA/UART_TX_SVA_files/UART_TX_SVA.sv
+0 12
+sv_assert_on
+SYM_END
+TYPEDEF_BEGIN 0
+TYPEDEF_END 
+TF_BEGIN 1
+0 32 
+0 -1 -1 6 0 1 0 0x0 0 0x1 1 1 3  
+TF_END 

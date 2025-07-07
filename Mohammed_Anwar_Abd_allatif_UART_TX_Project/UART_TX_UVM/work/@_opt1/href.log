@@ -1,0 +1,10 @@
+BEGIN 3:uart_tx_if:fast:work
+    PAR_TYP :  1:uart_tx:fast:work
+    P_DATA :  1:uart_tx:fast:work
+    Busy :  1:uart_tx:fast:work
+    reset :  1:uart_tx:fast:work
+    TX_OUT :  1:uart_tx:fast:work
+    PAR_EN :  1:uart_tx:fast:work
+    clk :  1:uart_tx:fast:work
+    DATA_VALID :  1:uart_tx:fast:work
+END 

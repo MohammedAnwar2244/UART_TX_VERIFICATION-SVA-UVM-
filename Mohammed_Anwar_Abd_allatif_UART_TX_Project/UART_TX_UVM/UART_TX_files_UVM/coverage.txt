@@ -1,0 +1,2477 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /uart_top/R_if
+=== Design Unit: work.uart_tx_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         34        34         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /uart_top/R_if --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                              Busy           1           1      100.00 
+                                          Busy_exp           1           1      100.00 
+                                        DATA_VALID           1           1      100.00 
+                                            PAR_EN           1           1      100.00 
+                                           PAR_TYP           1           1      100.00 
+                                       P_DATA[0-7]           1           1      100.00 
+                                            TX_OUT           1           1      100.00 
+                                        TX_OUT_EXP           1           1      100.00 
+                                               clk           1           1      100.00 
+                                             reset           1           1      100.00 
+
+Total Node Count     =         17 
+Toggled Node Count   =         17 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (34 of 34 bins)
+
+=================================================================================
+=== Instance: /uart_top/DUT/ASSERTION
+=== Design Unit: work.uart_tx_assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      19        19         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/a_assert
+                     UART_TX_SVA.sv(6)                  0          1
+/uart_top/DUT/ASSERTION/b_assert
+                     UART_TX_SVA.sv(7)                  0          1
+/uart_top/DUT/ASSERTION/c_assert
+                     UART_TX_SVA.sv(8)                  0          1
+/uart_top/DUT/ASSERTION/d_assert
+                     UART_TX_SVA.sv(9)                  0          1
+/uart_top/DUT/ASSERTION/p1
+                     UART_TX_SVA.sv(19)                 0          1
+/uart_top/DUT/ASSERTION/p2
+                     UART_TX_SVA.sv(27)                 0          1
+/uart_top/DUT/ASSERTION/p3
+                     UART_TX_SVA.sv(35)                 0          1
+/uart_top/DUT/ASSERTION/p4
+                     UART_TX_SVA.sv(43)                 0          1
+/uart_top/DUT/ASSERTION/p5
+                     UART_TX_SVA.sv(53)                 0          1
+/uart_top/DUT/ASSERTION/p6
+                     UART_TX_SVA.sv(61)                 0          1
+/uart_top/DUT/ASSERTION/p7
+                     UART_TX_SVA.sv(69)                 0          1
+/uart_top/DUT/ASSERTION/p8
+                     UART_TX_SVA.sv(77)                 0          1
+/uart_top/DUT/ASSERTION/p9
+                     UART_TX_SVA.sv(88)                 0          1
+/uart_top/DUT/ASSERTION/p10
+                     UART_TX_SVA.sv(99)                 0          1
+/uart_top/DUT/ASSERTION/p11
+                     UART_TX_SVA.sv(107)                0          1
+/uart_top/DUT/ASSERTION/p12
+                     UART_TX_SVA.sv(116)                0          1
+/uart_top/DUT/ASSERTION/p13
+                     UART_TX_SVA.sv(125)                0          1
+/uart_top/DUT/ASSERTION/p14
+                     UART_TX_SVA.sv(134)                0          1
+/uart_top/DUT/ASSERTION/p15
+                     UART_TX_SVA.sv(143)                0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /uart_top/DUT/ASSERTION
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SVA.sv
+------------------------------------IF Branch------------------------------------
+    5                                        299     Count coming in to IF
+    5               1                         41       if (!vif.reset) begin
+                                             258     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+
+Directive Coverage:
+    Directives                      15        15         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/c1               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(20)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c2               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(28)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c3               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(36)
+                                                                                21 Covered   
+/uart_top/DUT/ASSERTION/c4               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(44)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c5               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(54)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c6               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(62)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c7               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(70)
+                                                                                15 Covered   
+/uart_top/DUT/ASSERTION/c8               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(78)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c9               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(89)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c10              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(100)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c11              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(108)
+                                                                                22 Covered   
+/uart_top/DUT/ASSERTION/c12              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(117)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c13              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(126)
+                                                                                14 Covered   
+/uart_top/DUT/ASSERTION/c14              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(135)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c15              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(144)
+                                                                                15 Covered   
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       1         1         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /uart_top/DUT/ASSERTION --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SVA.sv
+    1                                                module uart_tx_assertions (uart_tx_if.DUT vif);
+    2                                                
+    3                                                // Final reset checks after reset is deasserted
+    4               1                        299     always_comb begin 
+
+
+=================================================================================
+=== Instance: /uart_top/DUT
+=== Design Unit: work.uart_tx
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        16        15         1    93.75%
+
+================================Branch Details================================
+
+Branch Coverage for instance /uart_top/DUT
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX.sv
+------------------------------------IF Branch------------------------------------
+    10                                      1254     Count coming in to IF
+    10              1                         69         if (!R_if.reset) begin
+    15              1                       1185         end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    16                                      1185     Count coming in to CASE
+    17              1                        986             R_if.IDLE: begin
+    28              1                         22             R_if.START: begin
+    35              1                        157             R_if.DATA: begin
+    43              1                          3             R_if.PARITY: begin
+    48              1                         17             R_if.STOP: begin
+                                         ***0***     All False Count
+Branch totals: 5 hits of 6 branches = 83.33%
+
+------------------------------------IF Branch------------------------------------
+    21                                       986     Count coming in to IF
+    21              1                         22             if (R_if.DATA_VALID) begin
+                                             964     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                        22     Count coming in to IF
+    23              1                         11                 parity_bit <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+    23              2                         11                 parity_bit <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                       157     Count coming in to IF
+    38              1                         17               if (counter == 7) begin
+                                             140     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    39                                        17     Count coming in to IF
+    39              1                          3                 state <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+    39              2                         14                 state <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         1         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /uart_top/DUT --
+
+  File UART_TX.sv
+----------------Focused Condition View-------------------
+Line       38 Item    1  (counter == 7)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (counter == 7)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (counter == 7)_0      -                             
+  Row   2:          1  (counter == 7)_1      -                             
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /uart_top/DUT --
+
+  File UART_TX.sv
+-----------Focused Expression View (Bimodal)------------
+Line       23 Item    1  (~R_if.PAR_TYP? ~^R_if.P_DATA: ^R_if.P_DATA)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+       Input Term   Covered  Reason for no coverage                  Hint
+      -----------  --------  --------------------------------------  --------------
+     R_if.PAR_TYP         Y
+    ~^R_if.P_DATA         Y
+     ^R_if.P_DATA         Y
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target            Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------  -------------------------          
+ Row   1:           0           1  R_if.PAR_TYP_0        -                                  
+ Row   2:           1           0  R_if.PAR_TYP_1        -                                  
+ Row   3:           1           0  ~^R_if.P_DATA_0       ~R_if.PAR_TYP                      
+ Row   4:           0           1  ~^R_if.P_DATA_1       ~R_if.PAR_TYP                      
+ Row   5:           1           0  ^R_if.P_DATA_0        R_if.PAR_TYP                       
+ Row   6:           0           1  ^R_if.P_DATA_1        R_if.PAR_TYP                       
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        22         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /uart_top/DUT --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX.sv
+    1                                                module uart_tx (uart_tx_if.DUT R_if);
+    2                                                  
+    3                                                
+    4                                                  reg [3:0] state = R_if.IDLE;
+    5                                                  reg [3:0] counter = 0;
+    6                                                  reg [7:0] data_reg;
+    7                                                  reg parity_bit;
+    8                                                
+    9               1                       1254       always @(posedge R_if.clk or negedge R_if.reset) begin
+    10                                                   if (!R_if.reset) begin
+    11              1                         69           state <= R_if.IDLE;
+    12              1                         69           R_if.TX_OUT <= 1'b1;
+    13              1                         69            R_if.Busy <= 1'b0;
+    14              1                         69           counter <= 0;
+    15                                                   end else begin
+    16                                                     case (state)
+    17                                                       R_if.IDLE: begin
+    18              1                        986               R_if.TX_OUT <= 1'b1;
+    19              1                        986               R_if.Busy <= 1'b0;
+    20              1                        986             counter <=0 ;
+    21                                                       if (R_if.DATA_VALID) begin
+    22              1                         22                 data_reg <= R_if.P_DATA;
+    23              1                         22                 parity_bit <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+    24              1                         22                 state <= R_if.START;
+    25              1                         22                 R_if.Busy <= 1'b1;
+    26                                                       end
+    27                                                         end
+    28                                                       R_if.START: begin
+    29              1                         22              R_if.TX_OUT <= 1'b0;
+    30              1                         22              state <= R_if.DATA;
+    31              1                         22              counter <= 0 ;
+    32                                                       
+    33                                                       end
+    34                                               
+    35                                                       R_if.DATA: begin
+    36              1                        157               R_if.TX_OUT <= data_reg[counter];
+    37              1                        157               counter <= counter + 1 ;
+    38                                                         if (counter == 7) begin
+    39              1                         17                 state <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+    40                                                           end
+    41                                                       end
+    42                                               
+    43                                                       R_if.PARITY: begin
+    44              1                          3               R_if.TX_OUT <= parity_bit ;
+    45              1                          3               state <= R_if.STOP;
+    46                                                       end
+    47                                               
+    48                                                       R_if.STOP: begin
+    49              1                         17               R_if.TX_OUT <= 1'b1;
+    50              1                         17               state <= R_if.IDLE;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         34        24        10    70.58%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /uart_top/DUT --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                      counter[0-3]           1           1      100.00 
+                                     data_reg[0-2]           1           1      100.00 
+                                     data_reg[3-4]           0           0        0.00 
+                                       data_reg[5]           1           0       50.00 
+                                       data_reg[6]           0           0        0.00 
+                                       data_reg[7]           1           0       50.00 
+                                        parity_bit           1           1      100.00 
+                                        state[0-2]           1           1      100.00 
+                                          state[3]           0           0        0.00 
+
+Total Node Count     =         17 
+Toggled Node Count   =         11 
+Untoggled Node Count =          6 
+
+Toggle Coverage      =      70.58% (24 of 34 bins)
+
+=================================================================================
+=== Instance: /uart_top/GO
+=== Design Unit: work.uart_tx_golden
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        16        15         1    93.75%
+
+================================Branch Details================================
+
+Branch Coverage for instance /uart_top/GO
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_GOLDEN.sv
+------------------------------------IF Branch------------------------------------
+    10                                      1254     Count coming in to IF
+    10              1                         69         if (!R_if.reset) begin
+    15              1                       1185         end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    16                                      1185     Count coming in to CASE
+    17              1                        986             R_if.IDLE: begin
+    28              1                         22             R_if.START: begin
+    34              1                        157             R_if.DATA: begin
+    42              1                          3             R_if.PARITY: begin
+    47              1                         17             R_if.STOP: begin
+                                         ***0***     All False Count
+Branch totals: 5 hits of 6 branches = 83.33%
+
+------------------------------------IF Branch------------------------------------
+    21                                       986     Count coming in to IF
+    21              1                         22             if (R_if.DATA_VALID) begin
+                                             964     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                        22     Count coming in to IF
+    23              1                         11                 parity_bit_g <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+    23              2                         11                 parity_bit_g <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    37                                       157     Count coming in to IF
+    37              1                         17               if (counter_g == 7) begin
+                                             140     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                        17     Count coming in to IF
+    38              1                          3                 state_g <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+    38              2                         14                 state_g <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         1         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /uart_top/GO --
+
+  File UART_TX_GOLDEN.sv
+----------------Focused Condition View-------------------
+Line       37 Item    1  (counter_g == 7)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (counter_g == 7)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (counter_g == 7)_0    -                             
+  Row   2:          1  (counter_g == 7)_1    -                             
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /uart_top/GO --
+
+  File UART_TX_GOLDEN.sv
+-----------Focused Expression View (Bimodal)------------
+Line       23 Item    1  (~R_if.PAR_TYP? ~^R_if.P_DATA: ^R_if.P_DATA)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+       Input Term   Covered  Reason for no coverage                  Hint
+      -----------  --------  --------------------------------------  --------------
+     R_if.PAR_TYP         Y
+    ~^R_if.P_DATA         Y
+     ^R_if.P_DATA         Y
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target            Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------  -------------------------          
+ Row   1:           0           1  R_if.PAR_TYP_0        -                                  
+ Row   2:           1           0  R_if.PAR_TYP_1        -                                  
+ Row   3:           1           0  ~^R_if.P_DATA_0       ~R_if.PAR_TYP                      
+ Row   4:           0           1  ~^R_if.P_DATA_1       ~R_if.PAR_TYP                      
+ Row   5:           1           0  ^R_if.P_DATA_0        R_if.PAR_TYP                       
+ Row   6:           0           1  ^R_if.P_DATA_1        R_if.PAR_TYP                       
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        22         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /uart_top/GO --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_GOLDEN.sv
+    1                                                module uart_tx_golden (uart_tx_if.GOLDEN R_if);
+    2                                                  
+    3                                                
+    4                                                  reg [3:0] state_g = R_if.IDLE;
+    5                                                  reg [3:0] counter_g = 0;
+    6                                                  reg [7:0] data_reg_g;
+    7                                                  reg parity_bit_g;
+    8                                                
+    9               1                       1254       always @(posedge R_if.clk or negedge R_if.reset) begin
+    10                                                   if (!R_if.reset) begin
+    11              1                         69           state_g <= R_if.IDLE;
+    12              1                         69           R_if.TX_OUT_EXP <= 1'b1;
+    13              1                         69           R_if.Busy_exp <= 1'b0;
+    14              1                         69           counter_g <= 0;
+    15                                                   end else begin
+    16                                                     case (state_g)
+    17                                                       R_if.IDLE: begin
+    18              1                        986               R_if.TX_OUT_EXP <= 1'b1;
+    19              1                        986               R_if.Busy_exp <= 1'b0;
+    20              1                        986             counter_g <=0 ;
+    21                                                       if (R_if.DATA_VALID) begin
+    22              1                         22                 data_reg_g <= R_if.P_DATA;
+    23              1                         22                 parity_bit_g <= (R_if.PAR_TYP == 0 ) ? ~^R_if.P_DATA : ^R_if.P_DATA ; 
+    24              1                         22                 state_g <= R_if.START;
+    25              1                         22                 R_if.Busy_exp <= 1'b1;
+    26                                                       end
+    27                                                         end
+    28                                                       R_if.START: begin
+    29              1                         22              R_if.TX_OUT_EXP <= 1'b0;
+    30              1                         22              state_g <= R_if.DATA;
+    31              1                         22              counter_g <= 0 ;
+    32                                                       end
+    33                                               
+    34                                                       R_if.DATA: begin
+    35              1                        157               R_if.TX_OUT_EXP <= data_reg_g[counter_g];
+    36              1                        157               counter_g <= counter_g + 1 ;
+    37                                                         if (counter_g == 7) begin
+    38              1                         17                 state_g <= (R_if.PAR_EN) ? R_if.PARITY : R_if.STOP ; 
+    39                                                           end
+    40                                                       end
+    41                                               
+    42                                                       R_if.PARITY: begin
+    43              1                          3               R_if.TX_OUT_EXP <= parity_bit_g ;
+    44              1                          3               state_g <= R_if.STOP;
+    45                                                       end
+    46                                               
+    47                                                       R_if.STOP: begin
+    48              1                         17               R_if.TX_OUT_EXP <= 1'b1;
+    49              1                         17               state_g <= R_if.IDLE;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         34        24        10    70.58%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /uart_top/GO --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                    counter_g[0-3]           1           1      100.00 
+                                   data_reg_g[0-2]           1           1      100.00 
+                                   data_reg_g[3-4]           0           0        0.00 
+                                     data_reg_g[5]           1           0       50.00 
+                                     data_reg_g[6]           0           0        0.00 
+                                     data_reg_g[7]           1           0       50.00 
+                                      parity_bit_g           1           1      100.00 
+                                      state_g[0-2]           1           1      100.00 
+                                        state_g[3]           0           0        0.00 
+
+Total Node Count     =         17 
+Toggled Node Count   =         11 
+Untoggled Node Count =          6 
+
+Toggle Coverage      =      70.58% (24 of 34 bins)
+
+=================================================================================
+=== Instance: /uart_top
+=== Design Unit: work.uart_top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /uart_top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_TOP.sv
+    1                                                module uart_top ();
+    2                                                    import uvm_pkg::*;
+    3                                                    `include "uvm_macros.svh"
+    4                                                    import pack_test::*;
+    5                                                
+    6                                                    bit clk;
+    7                                                
+    8                                                    initial begin
+    9               1                          1             clk = 0;
+    10              1                          1             forever #1 clk = ~clk;
+    10              2                       2441     
+    10              3                       2440     
+    11                                                   end
+    12                                               
+    13                                                   // Interface instance
+    14                                                   uart_tx_if R_if(clk);
+    15                                               
+    16                                                   // DUT and GOLDEN models
+    17                                                   uart_tx DUT (R_if);
+    18                                                   uart_tx_golden GO (R_if);
+    19                                               
+    20                                                   // Bind assertion module correctly
+    21                                                   bind uart_tx uart_tx_assertions ASSERTION (R_if);
+    22                                               
+    23                                                   // UVM config & run
+    24                                                   initial begin
+    25              1                          1             uvm_config_db#(virtual uart_tx_if)::set(null, "uvm_test_top", "UART_LL", R_if);
+    26              1                          1             run_test("test");
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /uart_top --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk           1           1      100.00 
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /pack_seq_item
+=== Design Unit: work.pack_seq_item
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_seq_item
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SEQ_ITEM_pkg.sv
+------------------------------------IF Branch------------------------------------
+    15                                   ***0***     Count coming in to IF
+    15              1                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    15                                      1220     Count coming in to IF
+    15              2                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+                                            1220     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    15                                   ***0***     Count coming in to IF
+    15              3                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+    15              4                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    15                                      1220     Count coming in to IF
+    15              5                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+                                            1220     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    15                                   ***0***     Count coming in to IF
+    15              6                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /pack_seq_item --
+
+  File UART_TX_SEQ_ITEM_pkg.sv
+----------------Focused Condition View-------------------
+Line       15 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       15 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13         3        10    23.07%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_seq_item --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SEQ_ITEM_pkg.sv
+    1                                                package pack_seq_item;
+    2                                                
+    3                                                import uvm_pkg::*;
+    4                                                `include "uvm_macros.svh"
+    5                                                
+    6                                                class shift_reg_seq_item extends uvm_sequence_item;
+    7                                                
+    8                                                  // FSM state encoding (for future use or ref)
+    9                                                  parameter IDLE   = 0;
+    10                                                 parameter START  = 1;
+    11                                                 parameter DATA   = 2;
+    12                                                 parameter PARITY = 3;
+    13                                                 parameter STOP   = 4;
+    14                                               
+    15              1                    ***0***       `uvm_object_utils(shift_reg_seq_item)
+    15              2                    ***0***     
+    15              3                    ***0***     
+    15              4                    ***0***     
+    15              5                    ***0***     
+    15              6                       1220     
+    15              7                    ***0***     
+    15              8                    ***0***     
+    15              9                       1220     
+    15             10                    ***0***     
+    16                                               
+    17                                                 // Control signals
+    18                                                 rand logic reset;                     // Active-low reset
+    19                                                 rand logic PAR_EN;                   // 0: disable parity, 1: enable parity
+    20                                                 rand logic PAR_TYP;                  // 0: even, 1: odd
+    21                                                 rand logic DATA_VALID;
+    22                                                 logic clk;
+    23                                               
+    24                                                 // Data
+    25                                                 rand logic [7:0] P_DATA;
+    26                                               
+    27                                                 // DUT outputs
+    28                                                 logic TX_OUT, TX_OUT_EXP;
+    29                                                 logic Busy, Busy_exp;
+    30                                               
+    31                                                 // Constructor
+    32                                                 function new(string name = "shift_reg_seq_item");
+    33              1                       3662         super.new(name);
+    34                                                 endfunction
+    35                                               
+    36                                                 ////////////////////////////////////////////////////////////////////////////////////////
+    37                                                 // Constraints - Functional Coverage Related
+    38                                                 ////////////////////////////////////////////////////////////////////////////////////////
+    39                                               
+    40                                                 // I- Reset active for ~3% of simulation time
+    41                                                 constraint c_reset_active {
+    42                                                   reset dist {0 := 3, 1 := 97}; // Active-low reset
+    43                                                 }
+    44                                               
+    45                                                 // II- PAR_TYP toggle: 50% even, 50% odd
+    46                                                 constraint c_par_typ_toggle {
+    47                                                   PAR_TYP dist {0 := 50, 1 := 50};
+    48                                                 }
+    49                                               
+    50                                                 // III- PAR_EN enabled 25% of time
+    51                                                 constraint c_par_en {
+    52                                                   PAR_EN dist {1 := 25, 0 := 75};
+    53                                                 }
+    54                                               
+    55                                                 // IV- DATA_VALID active most of simulation time
+    56                                                 constraint c_data_valid {
+    57                                                   DATA_VALID dist {1 := 85, 0 := 15};
+    58                                                 }
+    59                                               
+    60                                                 // V- P_DATA specs:
+    61                                                 // a. LSB = 1 in 80% of cases
+    62                                                 constraint c_lsb_one {
+    63                                                   (P_DATA[0] == 1) dist {1 := 80, 0 := 20};
+    64                                                 }
+    65                                               
+    66                                                 // b. Specific patterns (11111111, 00000000, 10101010) appear 4% of time
+    67                                                 constraint c_specific_patterns {
+    68                                                   P_DATA dist {
+    69                                                     8'b11111111 := 1,
+    70                                                     8'b00000000 := 1,
+    71                                                     8'b10101010 := 1,
+    72                                                     [8'b00000001:8'b11111110] := 96
+    73                                                   };
+    74                                                 }
+    75                                               
+    76                                                 ////////////////////////////////////////////////////////////////////////////////////////
+    77                                                 // Utility methods
+    78                                                 ////////////////////////////////////////////////////////////////////////////////////////
+    79                                               
+    80                                                 function string convert2string();
+    81              1                    ***0***         return $sformatf(" %s :reset=%0b, PAR_EN=%0b, PAR_TYP=%0b, DATA_VALID=%0b, P_DATA=0x%0h, TX_OUT=%0b, Busy=%0b , TX_OUT_EXP=%0b , Busy_exp=%0b ",
+    82                                                     super.convert2string() ,reset, PAR_EN, PAR_TYP, DATA_VALID, P_DATA, TX_OUT, Busy , TX_OUT_EXP , Busy_exp );
+    83                                                 endfunction
+    84                                               
+    85                                                 function string convert2string_stimulus();
+    86              1                    ***0***         return $sformatf("%s reset=%0b, PAR_EN=%0b, PAR_TYP=%0b, DATA_VALID=%0b, P_DATA=%0h",
+
+
+=================================================================================
+=== Instance: /scoreboard
+=== Design Unit: work.scoreboard
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         2         4    33.33%
+
+================================Branch Details================================
+
+Branch Coverage for instance /scoreboard
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SCOREBOARD_pkg.sv
+------------------------------------IF Branch------------------------------------
+    42                                      1220     Count coming in to IF
+    42              1                    ***0***             if ((seq_item_sb.TX_OUT != seq_item_sb.TX_OUT_EXP) && (seq_item_sb.Busy != seq_item_sb.Busy_exp)) begin
+    46              1                       1220             else 
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    43                                   ***0***     Count coming in to IF
+    43              1                    ***0***               `uvm_error("run_phase",$sformatf("compartion failled at referance = %0d and %0d", seq_item_sb.TX_OUT_EXP , seq_item_sb.Busy_exp))
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    53                                         1     Count coming in to IF
+    53              1                          1           `uvm_info("SB_REPORT", 
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /scoreboard --
+
+  File UART_TX_SCOREBOARD_pkg.sv
+----------------Focused Condition View-------------------
+Line       42 Item    1  ((this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP) && (this.seq_item_sb.Busy != this.seq_item_sb.Busy_exp))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+                                                Input Term   Covered  Reason for no coverage   Hint
+                                               -----------  --------  -----------------------  --------------
+  (this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP)         N  '_1' not hit             Hit '_1'
+      (this.seq_item_sb.Busy != this.seq_item_sb.Busy_exp)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                                  Non-masking condition(s)      
+ ---------  ---------  --------------------                                        -------------------------     
+  Row   1:          1  (this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP)_0  -                             
+  Row   2:    ***0***  (this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP)_1  (this.seq_item_sb.Busy != this.seq_item_sb.Busy_exp)
+  Row   3:    ***0***  (this.seq_item_sb.Busy != this.seq_item_sb.Busy_exp)_0      (this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP)
+  Row   4:    ***0***  (this.seq_item_sb.Busy != this.seq_item_sb.Busy_exp)_1      (this.seq_item_sb.TX_OUT != this.seq_item_sb.TX_OUT_EXP)
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      19        15         4    78.94%
+
+================================Statement Details================================
+
+Statement Coverage for instance /scoreboard --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SCOREBOARD_pkg.sv
+    1                                                package scoreboard;
+    2                                                 `include "uvm_macros.svh"
+    3                                                  import uvm_pkg::*;
+    4                                                  import pack_seq_item::*;  // Using RAM-specific sequence item
+    5                                                
+    6                                                  class uart_scoreboard extends uvm_scoreboard;
+    7               1                    ***0***         `uvm_component_utils(uart_scoreboard)
+    7               2                    ***0***     
+    7               3                          2     
+    8                                                
+    9                                                    // Analysis ports and FIFO
+    10                                                   uvm_analysis_export #(shift_reg_seq_item) sb_export;
+    11                                                   uvm_tlm_analysis_fifo #(shift_reg_seq_item) sb_fifo;
+    12                                                   shift_reg_seq_item seq_item_sb;
+    13                                               
+    14                                                
+    15                                                   // Statistics
+    16              1                          1         int error_count = 0;
+    17              1                          1         int correct_count = 0;
+    18                                                   // CONSTRACTOR
+    19                                                   function new(string name = "uart_scoreboard", uvm_component parent = null);
+    20              1                          1           super.new(name, parent);
+    21                                                   endfunction
+    22                                               
+    23                                                   function void build_phase(uvm_phase phase);
+    24              1                          1           super.build_phase(phase);
+    25              1                          1           sb_export = new("sb_export", this);
+    26              1                          1           sb_fifo   = new("sb_fifo", this);
+    27                                                   endfunction
+    28                                               
+    29                                                   function void connect_phase(uvm_phase phase);
+    30              1                          1           super.connect_phase(phase);
+    31              1                          1           sb_export.connect(sb_fifo.analysis_export);
+    32                                                   endfunction
+    33                                               
+    34                                               
+    35                                               
+    36                                               
+    37                                                   task run_phase(uvm_phase phase);
+    38              1                          1           super.run_phase(phase);
+    39              1                          1           forever 
+    40                                                     begin
+    41              1                       1221             sb_fifo.get(seq_item_sb);
+    42                                                       if ((seq_item_sb.TX_OUT != seq_item_sb.TX_OUT_EXP) && (seq_item_sb.Busy != seq_item_sb.Busy_exp)) begin
+    43              1                    ***0***               `uvm_error("run_phase",$sformatf("compartion failled at referance = %0d and %0d", seq_item_sb.TX_OUT_EXP , seq_item_sb.Busy_exp))
+    44              1                    ***0***               error_count++;
+    45                                                       end
+    46                                                       else 
+    47              1                       1220             correct_count++;
+    48                                                     end 
+    49                                                   endtask
+    50                                               
+    51                                                   function void report_phase(uvm_phase phase);
+    52              1                          1           super.report_phase(phase);
+    53              1                          1           `uvm_info("SB_REPORT", 
+
+
+=================================================================================
+=== Instance: /pack_coverage
+=== Design Unit: work.pack_coverage
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    97.22%
+        Coverpoints/Crosses          9        na        na        na
+            Covergroup Bins         41        40         1    97.56%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_coverage/uart_coverage/UART_CG             97.22%        100          -    Uncovered            
+    covered/total bins:                                    40         41          -                      
+    missing/total bins:                                     1         41          -                      
+    % Hit:                                             97.56%        100          -                      
+    Coverpoint cp_PAR_EN                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       947          1          -    Covered              
+        bin auto[1]                                       273          1          -    Covered              
+    Coverpoint cp_PAR_TYPE                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       608          1          -    Covered              
+        bin auto[1]                                       612          1          -    Covered              
+    Coverpoint cp_P_VALID                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1007          1          -    Covered              
+        bin auto[1]                                       212          1          -    Covered              
+    Coverpoint cp_P_DATA                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        ignore_bin u                                      970                     -    Occurred             
+        bin low_vals[0]                                     3          1          -    Covered              
+        bin low_vals[1]                                    46          1          -    Covered              
+        bin low_vals[2]                                    24          1          -    Covered              
+        bin low_vals[3]                                    42          1          -    Covered              
+        bin low_vals[4]                                    26          1          -    Covered              
+        bin low_vals[5]                                    53          1          -    Covered              
+        bin low_vals[6]                                    15          1          -    Covered              
+        bin low_vals[7]                                    41          1          -    Covered              
+    Coverpoint #seq_item_cov.TX_OUT__0#               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       144          1          -    Covered              
+        bin auto[1]                                      1076          1          -    Covered              
+    Coverpoint #seq_item_cov.Busy__1#                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       999          1          -    Covered              
+        bin auto[1]                                       221          1          -    Covered              
+    Cross cross_PAR_EN_PAR_TYPE                       100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                         130          1          -    Covered              
+            bin <auto[1],auto[0]>                         143          1          -    Covered              
+            bin <auto[0],auto[0]>                         465          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin invalid                            482                     -    Occurred             
+    Cross cross_P_DATA_P_VALID                        100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <low_vals[7],auto[1]>                      34          1          -    Covered              
+            bin <low_vals[6],auto[1]>                      13          1          -    Covered              
+            bin <low_vals[5],auto[1]>                      49          1          -    Covered              
+            bin <low_vals[4],auto[1]>                      23          1          -    Covered              
+            bin <low_vals[3],auto[1]>                      33          1          -    Covered              
+            bin <low_vals[2],auto[1]>                      18          1          -    Covered              
+            bin <low_vals[1],auto[1]>                      39          1          -    Covered              
+            bin <low_vals[0],auto[1]>                       1          1          -    Covered              
+            bin <low_vals[7],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[6],auto[0]>                       2          1          -    Covered              
+            bin <low_vals[5],auto[0]>                       4          1          -    Covered              
+            bin <low_vals[4],auto[0]>                       3          1          -    Covered              
+            bin <low_vals[3],auto[0]>                       9          1          -    Covered              
+            bin <low_vals[2],auto[0]>                       6          1          -    Covered              
+            bin <low_vals[1],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[0],auto[0]>                       1          1          -    Covered              
+    Cross cross_TX_OUT_BUSY                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                          77          1          -    Covered              
+            bin <auto[0],auto[1]>                         144          1          -    Covered              
+            bin <auto[1],auto[0]>                         999          1          -    Covered              
+            bin <auto[0],auto[0]>                           0          1          1    ZERO                 
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        12         2    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_coverage --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_COVERAGE_pkg.sv
+    1                                                package pack_coverage;
+    2                                                
+    3                                                  import uvm_pkg::*;
+    4                                                  `include "uvm_macros.svh"
+    5                                                  import pack_seq_item::*;
+    6                                                
+    7                                                  class uart_coverage extends uvm_component;
+    8               1                    ***0***         `uvm_component_utils(uart_coverage)
+    8               2                    ***0***     
+    8               3                          2     
+    9                                                
+    10                                                   uvm_analysis_export #(shift_reg_seq_item) cov_export;
+    11                                                   uvm_tlm_analysis_fifo #(shift_reg_seq_item) cov_fifo;
+    12                                                   shift_reg_seq_item seq_item_cov;
+    13                                               
+    14                                                   localparam int MEM_DEPTH = 256;
+    15                                                   localparam int ADDR_SIZE = $clog2(MEM_DEPTH);
+    16                                                   localparam int MEM_WIDTH = 8;
+    17                                               
+    18                                                  covergroup UART_CG;
+    19                                               
+    20                                                 cp_PAR_EN   : coverpoint seq_item_cov.PAR_EN;
+    21                                                 cp_PAR_TYPE : coverpoint seq_item_cov.PAR_TYP;
+    22                                                 cp_P_VALID  : coverpoint seq_item_cov.DATA_VALID;
+    23                                                 cp_P_DATA   : coverpoint seq_item_cov.P_DATA {
+    24                                                   bins low_vals[] = {[0:7]}; // smaller set
+    25                                                   ignore_bins u = {[8:255]};
+    26                                                 }
+    27                                               
+    28                                                 // Cross coverpoints
+    29                                                 cross_PAR_EN_PAR_TYPE : cross cp_PAR_EN, cp_PAR_TYPE {
+    30                                                   ignore_bins invalid = binsof(cp_PAR_EN) intersect {0} &&
+    31                                                                         binsof(cp_PAR_TYPE) intersect {1};
+    32                                                 }
+    33                                               
+    34                                                 cross_P_DATA_P_VALID  : cross cp_P_DATA, cp_P_VALID;
+    35                                                 cross_TX_OUT_BUSY     : cross seq_item_cov.TX_OUT, seq_item_cov.Busy;
+    36                                               
+    37                                               endgroup
+    38                                               
+    39                                               
+    40                                               
+    41                                               
+    42                                                 function new(string name = " uart_coverage", uvm_component parent = null);
+    43              1                          1           super.new(name, parent);
+    44              1                          1           UART_CG= new;
+    45                                                   endfunction
+    46                                               
+    47                                                   function void build_phase(uvm_phase phase);
+    48              1                          1           super.build_phase(phase);
+    49              1                          1           cov_export = new("cov_export", this);
+    50              1                          1           cov_fifo = new("cov_fifo", this);
+    51                                                   endfunction
+    52                                               
+    53                                                   function void connect_phase(uvm_phase phase);
+    54              1                          1           super.connect_phase(phase);
+    55              1                          1           cov_export.connect(cov_fifo.analysis_export);
+    56                                                   endfunction
+    57                                               
+    58                                                   task run_phase(uvm_phase phase);
+    59              1                          1           super.run_phase(phase);
+    60              1                          1           forever begin
+    61              1                       1221             cov_fifo.get(seq_item_cov);
+    62              1                       1220             UART_CG.sample();
+
+
+=================================================================================
+=== Instance: /pack_seqs
+=== Design Unit: work.pack_seqs
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/pack_seqs/uart_tx_random_sequence/body/#ublk#169274099#87/immed__90
+                     UART_TX_SEQS_pkg.sv(90)            0          1
+/pack_seqs/uart_tx_coverage_sequence/body/#ublk#169274099#141/immed__144
+                     UART_TX_SEQS_pkg.sv(144)           0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        50        10        40    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_seqs
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SEQS_pkg.sv
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              1                    ***0***         `uvm_object_utils(uart_reset_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                         1     Count coming in to IF
+    11              2                    ***0***         `uvm_object_utils(uart_reset_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              3                    ***0***         `uvm_object_utils(uart_reset_sequence)
+    11              4                    ***0***         `uvm_object_utils(uart_reset_sequence)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                         1     Count coming in to IF
+    11              5                    ***0***         `uvm_object_utils(uart_reset_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              6                    ***0***         `uvm_object_utils(uart_reset_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                   ***0***     Count coming in to IF
+    33              1                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                         1     Count coming in to IF
+    33              2                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                   ***0***     Count coming in to IF
+    33              3                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+    33              4                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                         1     Count coming in to IF
+    33              5                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                   ***0***     Count coming in to IF
+    33              6                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                   ***0***     Count coming in to IF
+    56              1                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                         1     Count coming in to IF
+    56              2                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                   ***0***     Count coming in to IF
+    56              3                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+    56              4                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                         1     Count coming in to IF
+    56              5                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                   ***0***     Count coming in to IF
+    56              6                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    79                                   ***0***     Count coming in to IF
+    79              1                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    79                                         1     Count coming in to IF
+    79              2                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    79                                   ***0***     Count coming in to IF
+    79              3                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+    79              4                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    79                                         1     Count coming in to IF
+    79              5                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    79                                   ***0***     Count coming in to IF
+    79              6                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                  ***0***     Count coming in to IF
+    102             1                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                        1     Count coming in to IF
+    102             2                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                  ***0***     Count coming in to IF
+    102             3                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+    102             4                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                        1     Count coming in to IF
+    102             5                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    102                                  ***0***     Count coming in to IF
+    102             6                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      10         0        10     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /pack_seqs --
+
+  File UART_TX_SEQS_pkg.sv
+----------------Focused Condition View-------------------
+Line       11 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       11 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       33 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       33 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       56 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       56 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       79 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       79 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       102 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       102 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     108        68        40    62.96%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_seqs --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SEQS_pkg.sv
+    1                                                package pack_seqs;
+    2                                                
+    3                                                  import uvm_pkg::*;
+    4                                                  `include "uvm_macros.svh"
+    5                                                  import pack_seq_item::*;
+    6                                                
+    7                                                  /////////////////////////////////////////////////////////////////////////////
+    8                                                  // Sequence 1: Reset Sequence (active-low)
+    9                                                  /////////////////////////////////////////////////////////////////////////////
+    10                                                 class uart_reset_sequence extends uvm_sequence #(shift_reg_seq_item);
+    11              1                    ***0***         `uvm_object_utils(uart_reset_sequence)
+    11              2                    ***0***     
+    11              3                    ***0***     
+    11              4                    ***0***     
+    11              5                    ***0***     
+    11              6                          1     
+    11              7                    ***0***     
+    11              8                    ***0***     
+    11              9                          1     
+    11             10                    ***0***     
+    12                                                   shift_reg_seq_item seq_item;
+    13                                               
+    14                                                   function new(string name = "uart_reset_sequence");
+    15              1                          1           super.new(name);
+    16                                                   endfunction
+    17                                               
+    18                                                   task body();
+    19              1                          1           seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    20              1                          1           start_item(seq_item);
+    21              1                          1           seq_item.reset = 0; // active-low
+    22              1                          1           seq_item.P_DATA = 8'b0;
+    23              1                          1           seq_item.PAR_EN = 0;
+    24              1                          1           seq_item.PAR_TYP = 0;
+    25              1                          1           finish_item(seq_item);
+    26                                                   endtask
+    27                                                 endclass
+    28                                               
+    29                                                 /////////////////////////////////////////////////////////////////////////////
+    30                                                 // Sequence 2: Send data with parity disabled
+    31                                                 /////////////////////////////////////////////////////////////////////////////
+    32                                                 class uart_tx_noparity_sequence extends uvm_sequence #(shift_reg_seq_item);
+    33              1                    ***0***         `uvm_object_utils(uart_tx_noparity_sequence)
+    33              2                    ***0***     
+    33              3                    ***0***     
+    33              4                    ***0***     
+    33              5                    ***0***     
+    33              6                          1     
+    33              7                    ***0***     
+    33              8                    ***0***     
+    33              9                          1     
+    33             10                    ***0***     
+    34                                                   shift_reg_seq_item seq_item;
+    35                                               
+    36                                                   function new(string name = "uart_tx_noparity_sequence");
+    37              1                          1           super.new(name);
+    38                                                   endfunction
+    39                                               
+    40                                                   task body();
+    41              1                          1           seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    42              1                          1           start_item(seq_item);
+    43              1                          1           seq_item.reset       = 1;
+    44              1                          1           seq_item.DATA_VALID  = 1;
+    45              1                          1           seq_item.PAR_EN      = 0;
+    46              1                          1           seq_item.PAR_TYP     = 0;
+    47              1                          1           seq_item.P_DATA      = 8'hA5;
+    48              1                          1           finish_item(seq_item);
+    49                                                   endtask
+    50                                                 endclass
+    51                                               
+    52                                                 /////////////////////////////////////////////////////////////////////////////
+    53                                                 // Sequence 3: Send data with parity enabled (even or odd)
+    54                                                 /////////////////////////////////////////////////////////////////////////////
+    55                                                 class uart_tx_parity_sequence extends uvm_sequence #(shift_reg_seq_item);
+    56              1                    ***0***         `uvm_object_utils(uart_tx_parity_sequence)
+    56              2                    ***0***     
+    56              3                    ***0***     
+    56              4                    ***0***     
+    56              5                    ***0***     
+    56              6                          1     
+    56              7                    ***0***     
+    56              8                    ***0***     
+    56              9                          1     
+    56             10                    ***0***     
+    57                                                   shift_reg_seq_item seq_item;
+    58                                               
+    59                                                   function new(string name = "uart_tx_parity_sequence");
+    60              1                          1           super.new(name);
+    61                                                   endfunction
+    62                                               
+    63                                                   task body();
+    64              1                          1           seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    65              1                          1           start_item(seq_item);
+    66              1                          1           seq_item.reset       = 1;
+    67              1                          1           seq_item.DATA_VALID  = 1;
+    68              1                          1           seq_item.PAR_EN      = 1;
+    69              1                          1           seq_item.PAR_TYP     = $urandom_range(0,1); // even or odd
+    70              1                          1           seq_item.P_DATA      = 8'h3C;
+    71              1                          1           finish_item(seq_item);
+    72                                                   endtask
+    73                                                 endclass
+    74                                               
+    75                                                 /////////////////////////////////////////////////////////////////////////////
+    76                                                 // Sequence 4: Send random legal stimulus (fully randomized)
+    77                                                 /////////////////////////////////////////////////////////////////////////////
+    78                                                 class uart_tx_random_sequence extends uvm_sequence #(shift_reg_seq_item);
+    79              1                    ***0***         `uvm_object_utils(uart_tx_random_sequence)
+    79              2                    ***0***     
+    79              3                    ***0***     
+    79              4                    ***0***     
+    79              5                    ***0***     
+    79              6                          1     
+    79              7                    ***0***     
+    79              8                    ***0***     
+    79              9                          1     
+    79             10                    ***0***     
+    80                                                   shift_reg_seq_item seq_item;
+    81                                               
+    82                                                   function new(string name = "uart_tx_random_sequence");
+    83              1                          1           super.new(name);
+    84                                                   endfunction
+    85                                               
+    86                                                   task body();
+    87              1                        999           repeat (999) begin
+    88              1                        999             seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    89              1                        999             start_item(seq_item);
+    90                                                       assert(seq_item.randomize() with {
+    91                                                         DATA_VALID == 1'b0;
+    92                                                       });
+    93              1                        999             finish_item(seq_item);
+    94                                                     end
+    95                                                   endtask
+    96                                                 endclass
+    97                                               
+    98                                                 /////////////////////////////////////////////////////////////////////////////
+    99                                                 // Sequence 5: Coverage-oriented sequence
+    100                                                /////////////////////////////////////////////////////////////////////////////
+    101                                                class uart_tx_coverage_sequence extends uvm_sequence #(shift_reg_seq_item);
+    102             1                    ***0***         `uvm_object_utils(uart_tx_coverage_sequence)
+    102             2                    ***0***     
+    102             3                    ***0***     
+    102             4                    ***0***     
+    102             5                    ***0***     
+    102             6                          1     
+    102             7                    ***0***     
+    102             8                    ***0***     
+    102             9                          1     
+    102            10                    ***0***     
+    103                                                  shift_reg_seq_item seq_item;
+    104                                              
+    105                                                  function new(string name = "uart_tx_coverage_sequence");
+    106             1                          1           super.new(name);
+    107                                                  endfunction
+    108                                              
+    109                                                  task body();
+    110                                                    int data_val;
+    111                                                    int valid;
+    112                                                    int par_typ;
+    113                                              
+    114                                                    // Test all data values from 0 to 7 with DATA_VALID = 0 and 1, PAR_EN = 0
+    115             1                          1           for (data_val = 0; data_val <= 7; data_val++) begin
+    115             2                          8     
+    116             1                          8             for (valid = 0; valid <= 1; valid++) begin
+    116             2                         16     
+    117             1                         16               seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    118             1                         16               start_item(seq_item);
+    119             1                         16               seq_item.reset       = 1;
+    120             1                         16               seq_item.DATA_VALID  = valid;
+    121             1                         16               seq_item.PAR_EN      = 0;
+    122             1                         16               seq_item.PAR_TYP     = 0;
+    123             1                         16               seq_item.P_DATA      = data_val;
+    124             1                         16               finish_item(seq_item);
+    125                                                      end
+    126                                                    end
+    127                                              
+    128                                                    // Check both parity types with PAR_EN = 1
+    129             1                          1           for (par_typ = 0; par_typ <= 1; par_typ++) begin
+    129             2                          2     
+    130             1                          2             seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    131             1                          2             start_item(seq_item);
+    132             1                          2             seq_item.reset       = 1;
+    133             1                          2             seq_item.DATA_VALID  = 1;
+    134             1                          2             seq_item.PAR_EN      = 1;
+    135             1                          2             seq_item.PAR_TYP     = par_typ;
+    136             1                          2             seq_item.P_DATA      = 5;
+    137             1                          2             finish_item(seq_item);
+    138                                                    end
+    139                                              
+    140                                                    // Generate additional randomized valid stimuli for coverage
+    141             1                        200           repeat (200) begin
+    142             1                        200             seq_item = shift_reg_seq_item::type_id::create("seq_item");
+    143             1                        200             start_item(seq_item);
+    144                                                      assert(seq_item.randomize() with {
+    145                                                        P_DATA inside {[0:7]};
+    146                                                        DATA_VALID == 1;
+    147                                                        PAR_EN inside {0,1};
+    148                                                        PAR_TYP inside {0,1};
+    149                                                      });
+    150             1                        200             finish_item(seq_item);
+
+
+=================================================================================
+=== Instance: /pack_mon
+=== Design Unit: work.pack_mon
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_mon
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_MONITOR_pkg.sv
+------------------------------------IF Branch------------------------------------
+    42                                      1220     Count coming in to IF
+    42              1                    ***0***             `uvm_info("run_phase", rsp_seq_item.convert2string(), UVM_HIGH);
+                                            1220     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      21        18         3    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_mon --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_MONITOR_pkg.sv
+    1                                                package pack_mon;
+    2                                                
+    3                                                  `include "uvm_macros.svh"
+    4                                                  import uvm_pkg::*;
+    5                                                  import pack_seq_item::*;
+    6                                                
+    7                                                  class uart_monitor extends uvm_monitor;
+    8               1                    ***0***         `uvm_component_utils(uart_monitor)
+    8               2                    ***0***     
+    8               3                          2     
+    9                                                
+    10                                                   virtual uart_tx_if sh_vif;
+    11                                                   shift_reg_seq_item rsp_seq_item;
+    12                                                   uvm_analysis_port #(shift_reg_seq_item) mon_ap;
+    13                                               
+    14                                                   function new(string name = "uart_monitor", uvm_component parent = null);
+    15              1                          1           super.new(name, parent);
+    16                                                   endfunction
+    17                                               
+    18                                                   function void build_phase(uvm_phase phase);
+    19              1                          1           super.build_phase(phase);
+    20              1                          1           mon_ap = new("mon_ap", this);
+    21                                                   endfunction
+    22                                               
+    23                                                   task run_phase(uvm_phase phase);
+    24              1                          1           super.run_phase(phase);
+    25              1                          1           forever begin
+    26              1                       1221             rsp_seq_item = shift_reg_seq_item::type_id::create("rsp_seq_item");
+    27                                               
+    28              1                       1221             @(negedge sh_vif.clk);
+    29                                               
+    30              1                       1220             rsp_seq_item.reset   = sh_vif.reset;
+    31              1                       1220             rsp_seq_item.PAR_TYP = sh_vif.PAR_TYP;
+    32              1                       1220             rsp_seq_item.PAR_EN = sh_vif.PAR_EN;
+    33              1                       1220             rsp_seq_item.DATA_VALID   = sh_vif.DATA_VALID;
+    34              1                       1220             rsp_seq_item.P_DATA   = sh_vif.P_DATA;
+    35              1                       1220             rsp_seq_item.TX_OUT     = sh_vif.TX_OUT;
+    36              1                       1220             rsp_seq_item.Busy    = sh_vif.Busy;
+    37              1                       1220             rsp_seq_item.TX_OUT_EXP     = sh_vif.TX_OUT_EXP;
+    38              1                       1220             rsp_seq_item.Busy_exp    = sh_vif.Busy_exp;
+    39                                                       
+    40              1                       1220             mon_ap.write(rsp_seq_item);
+    41                                               
+    42              1                    ***0***             `uvm_info("run_phase", rsp_seq_item.convert2string(), UVM_HIGH);
+
+
+=================================================================================
+=== Instance: /pack_sequencer
+=== Design Unit: work.pack_sequencer
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         2         2    50.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_sequencer --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_SEQUENCER_pkg.sv
+    1                                                package pack_sequencer;
+    2                                                  import uvm_pkg::*;
+    3                                                  `include "uvm_macros.svh"
+    4                                                  import pack_seq_item::*;
+    5                                                
+    6                                                  class uart_sequencer extends uvm_sequencer #(shift_reg_seq_item);// calss name of seq_item
+    7               1                    ***0***         `uvm_component_utils(uart_sequencer);
+    7               2                    ***0***     
+    7               3                          2     
+    8                                                
+    9                                                    function new(string name = "uart_sequencer", uvm_component parent = null);
+    10              1                          1           super.new(name, parent);
+
+
+=================================================================================
+=== Instance: /pack_config
+=== Design Unit: work.pack_config
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_config
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_GONFIGRATION_pkg.sv
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               1                    ***0***     `uvm_object_utils(uart_config);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               2                    ***0***     `uvm_object_utils(uart_config);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               3                    ***0***     `uvm_object_utils(uart_config);
+    5               4                    ***0***     `uvm_object_utils(uart_config);
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               5                    ***0***     `uvm_object_utils(uart_config);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    5                                    ***0***     Count coming in to IF
+    5               6                    ***0***     `uvm_object_utils(uart_config);
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /pack_config --
+
+  File UART_TX_GONFIGRATION_pkg.sv
+----------------Focused Condition View-------------------
+Line       5 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       5 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         1        10     9.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_config --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_GONFIGRATION_pkg.sv
+    1                                                package pack_config;
+    2                                                import uvm_pkg::*;
+    3                                                `include "uvm_macros.svh"
+    4                                                class uart_config extends uvm_object;
+    5               1                    ***0***     `uvm_object_utils(uart_config);
+    5               2                    ***0***     
+    5               3                    ***0***     
+    5               4                    ***0***     
+    5               5                    ***0***     
+    5               6                    ***0***     
+    5               7                    ***0***     
+    5               8                    ***0***     
+    5               9                    ***0***     
+    5              10                    ***0***     
+    6                                                virtual uart_tx_if uart_vif;
+    7                                                
+    8                                                    function new(string name = "uart_config");
+    9               1                          1         super.new(name);
+
+
+=================================================================================
+=== Instance: /pack_driver
+=== Design Unit: work.pack_driver
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_driver
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_DRIVER_pkg.sv
+------------------------------------IF Branch------------------------------------
+    45                                      1220     Count coming in to IF
+    45              1                    ***0***             `uvm_info("run_phase", stim_seq_item.convert2string_stimulus(), UVM_HIGH) 
+                                            1220     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      18        15         3    83.33%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_driver --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_DRIVER_pkg.sv
+    1                                                package pack_driver;
+    2                                                import pack_config::*;
+    3                                                import uvm_pkg::*;
+    4                                                import pack_seq_item::*;
+    5                                                `include "uvm_macros.svh"
+    6                                                class uart_driver extends uvm_driver #(shift_reg_seq_item);
+    7               1                    ***0***     `uvm_component_utils(uart_driver);
+    7               2                    ***0***     
+    7               3                          2     
+    8                                                //ram_config ram_cfg;
+    9                                                virtual uart_tx_if sh_vif;
+    10                                               shift_reg_seq_item stim_seq_item;
+    11                                               /********** COSTRACTOR *************/
+    12                                                   function new(string name ="uart_driver", uvm_component parent = null);
+    13              1                          1         super.new(name,parent);
+    14                                                   endfunction
+    15                                                   //***************RUN_PHASE*****************//
+    16                                               
+    17                                                task run_phase(uvm_phase phase);
+    18              1                          1           super.run_phase(phase);
+    19              1                          1           forever
+    20                                                      begin
+    21                                                       // Create a new sequence item
+    22              1                       1221             stim_seq_item = shift_reg_seq_item::type_id::create("stim_seq_item");
+    23                                               
+    24                                                       // Get transaction from sequencer
+    25              1                       1221             seq_item_port.get_next_item(stim_seq_item);
+    26                                               
+    27                                                       // Drive stimulus to DUT interface
+    28              1                       1220             sh_vif.reset        = stim_seq_item.reset;
+    29              1                       1220             sh_vif.PAR_EN        = stim_seq_item.PAR_EN;
+    30              1                       1220             sh_vif.PAR_TYP        = stim_seq_item.PAR_TYP; 
+    31              1                       1220             sh_vif.P_DATA      = stim_seq_item.P_DATA;
+    32              1                       1220              sh_vif.DATA_VALID      = stim_seq_item.DATA_VALID;
+    33                                                       
+    34                                                       // Wait for one negative clock edge
+    35              1                       1220             @(negedge sh_vif.clk); 
+    36                                               
+    37                                                       // Capture DUT output
+    38              1                       1220             stim_seq_item.TX_OUT = sh_vif.TX_OUT;
+    39              1                       1220              stim_seq_item.Busy = sh_vif.Busy;
+    40                                               
+    41                                                       
+    42                                                       // Complete transaction
+    43              1                       1220             seq_item_port.item_done();
+    44                                               
+    45              1                    ***0***             `uvm_info("run_phase", stim_seq_item.convert2string_stimulus(), UVM_HIGH) 
+
+
+=================================================================================
+=== Instance: /pack_agent
+=== Design Unit: work.pack_agent
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         1         3    25.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_agent
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_AGENT_pkg.sv
+------------------------------------IF Branch------------------------------------
+    27                                         1     Count coming in to IF
+    27              1                    ***0***           if (!uvm_config_db #(uart_config)::get(this, "", "CGO", uart_config_obj_driver)) begin 
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    28                                   ***0***     Count coming in to IF
+    28              1                    ***0***             `uvm_fatal("build_phase", "DRIVER − unable to get the virtual interface"); 
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        12         3    80.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_agent --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_AGENT_pkg.sv
+    1                                                package pack_agent;
+    2                                                  `include "uvm_macros.svh"
+    3                                                  import uvm_pkg::*; 
+    4                                                  import pack_driver::*;  
+    5                                                  import pack_sequencer::*; 
+    6                                                  import pack_seq_item::*; 
+    7                                                  import pack_mon::*; 
+    8                                                  import pack_config::*; 
+    9                                                  import pack_seqs::*;
+    10                                               
+    11                                                 class uart_agent extends uvm_agent; 
+    12              1                    ***0***         `uvm_component_utils(uart_agent); 
+    12              2                    ***0***     
+    12              3                          2     
+    13                                               
+    14                                                   uart_config uart_config_obj_driver;   // ✅ Correct type
+    15                                                   uart_driver uart_dr; 
+    16                                                   uart_sequencer sqr; 
+    17                                                   uart_monitor mon; 
+    18                                                   uvm_analysis_port #(shift_reg_seq_item) agt_ap; 
+    19                                               
+    20                                                   function new(string name = "uart_agent", uvm_component parent = null); // updated name
+    21              1                          1           super.new(name, parent); 
+    22                                                   endfunction
+    23                                               
+    24                                                   function void build_phase(uvm_phase phase); 
+    25              1                          1           super.build_phase(phase); 
+    26                                                     
+    27                                                     if (!uvm_config_db #(uart_config)::get(this, "", "CGO", uart_config_obj_driver)) begin 
+    28              1                    ***0***             `uvm_fatal("build_phase", "DRIVER − unable to get the virtual interface"); 
+    29                                                     end  
+    30                                               
+    31              1                          1           uart_dr = uart_driver::type_id::create("uart_dr", this); 
+    32              1                          1           sqr = uart_sequencer::type_id::create("sqr", this);   
+    33              1                          1           mon = uart_monitor::type_id::create("mon", this); 
+    34              1                          1           agt_ap = new("agt_ap", this); 
+    35                                                   endfunction
+    36                                               
+    37                                                   function void connect_phase(uvm_phase phase); 
+    38              1                          1           super.connect_phase(phase); 
+    39                                               
+    40                                                    
+    41              1                          1             uart_dr.seq_item_port.connect(sqr.seq_item_export); 
+    42              1                          1             uart_dr.sh_vif = uart_config_obj_driver.uart_vif; 
+    43                                                     
+    44                                               
+    45              1                          1           mon.sh_vif = uart_config_obj_driver.uart_vif; 
+    46              1                          1           mon.mon_ap.connect(agt_ap); 
+
+
+=================================================================================
+=== Instance: /pack_env
+=== Design Unit: work.pack_env
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      12        10         2    83.33%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_env --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_ENVIRONMENT_pkg.sv
+    1                                                package pack_env;
+    2                                                import pack_seq_item::*;
+    3                                                import pack_agent::*;
+    4                                                import pack_coverage::*;
+    5                                                import scoreboard::*;
+    6                                                import uvm_pkg::*;
+    7                                                `include "uvm_macros.svh"
+    8                                                class uart_env extends uvm_env;
+    9               1                    ***0***     `uvm_component_utils(uart_env);
+    9               2                    ***0***     
+    9               3                          2     
+    10                                               uart_agent agt;
+    11                                               uart_scoreboard sb;
+    12                                               uart_coverage cov;
+    13                                               uvm_analysis_port #(shift_reg_seq_item)agt_ap;
+    14                                               
+    15                                                   function new(string name="uart_env" , uvm_component parent = null);
+    16              1                          1         super.new(name,parent);
+    17                                                       endfunction 
+    18                                               /************** BUILD PHASE ***********************/
+    19                                                       function void build_phase(uvm_phase phase);
+    20              1                          1             super.build_phase(phase);
+    21              1                          1         agt=uart_agent::type_id::create("agt",this);
+    22              1                          1         sb=uart_scoreboard::type_id::create("sb",this);
+    23              1                          1         cov=uart_coverage::type_id::create("cov",this);
+    24              1                          1         agt_ap=new("agt_ap",this); 
+    25                                                       endfunction 
+    26                                               /******************* CONNECTED PHASE  *************/
+    27                                                function void connect_phase(uvm_phase phase); 
+    28              1                          1                 super.connect_phase(phase); 
+    29              1                          1                 agt.agt_ap.connect(sb.sb_export); 
+    30              1                          1                 agt.agt_ap.connect (cov.cov_export); 
+
+
+=================================================================================
+=== Instance: /pack_test
+=== Design Unit: work.pack_test
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        24        11        13    45.83%
+
+================================Branch Details================================
+
+Branch Coverage for instance /pack_test
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_TEST_pkg.sv
+------------------------------------IF Branch------------------------------------
+    41                                         1     Count coming in to IF
+    41              1                    ***0***         if (!uvm_config_db#(virtual uart_tx_if)::get(this , "" , "UART_LL" , uart_cfg.uart_vif)) begin
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    42                                   ***0***     Count coming in to IF
+    42              1                    ***0***           `uvm_fatal("build_phase" , "Unable to get virtual interface")
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                          1         `uvm_info("run_phase", "Reset sequence started", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    53                                         1     Count coming in to IF
+    53              1                          1         `uvm_info("run_phase", "Reset sequence finished", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    55                                         1     Count coming in to IF
+    55              1                          1         `uvm_info("run_phase", "noparity_sequence  started", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    57                                         1     Count coming in to IF
+    57              1                          1         `uvm_info("run_phase", "noparity_sequence  finished", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    59                                         1     Count coming in to IF
+    59              1                          1         `uvm_info("run_phase", "tx_parity_sequence  started", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    61                                         1     Count coming in to IF
+    61              1                          1         `uvm_info("run_phase", "tx_parity_sequence  finished", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    64                                         1     Count coming in to IF
+    64              1                          1         `uvm_info("run_phase", "Random  sequence started", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    66                                         1     Count coming in to IF
+    66              1                          1         `uvm_info("run_phase", "Random  sequence finished", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    69                                         1     Count coming in to IF
+    69              1                          1         `uvm_info("run_phase", "Random  sequence started", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    71                                         1     Count coming in to IF
+    71              1                          1         `uvm_info("run_phase", "Random  sequence finished", UVM_LOW);
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      32        29         3    90.62%
+
+================================Statement Details================================
+
+Statement Coverage for instance /pack_test --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File UART_TX_TEST_pkg.sv
+    1                                                package pack_test;
+    2                                                import pack_env::*;
+    3                                                import pack_config::*;
+    4                                                import pack_seqs::*;
+    5                                                import uvm_pkg::*;
+    6                                                `include "uvm_macros.svh"
+    7                                                
+    8                                                class test extends uvm_test;
+    9               1                    ***0***       `uvm_component_utils(test);
+    9               2                    ***0***     
+    9               3                          4     
+    10                                               
+    11                                                 virtual uart_tx_if uart_vif;
+    12                                                 uart_config uart_cfg;
+    13                                                 uart_env env;
+    14                                                 uart_reset_sequence                   seq_one;
+    15                                                 uart_tx_noparity_sequence             seq_two;
+    16                                                 uart_tx_parity_sequence               seq_three;
+    17                                                 uart_tx_random_sequence               seq_four;
+    18                                                 uart_tx_coverage_sequence             seq_five;
+    19                                                 
+    20                                               
+    21                                                 // Constructor
+    22                                                 function new(string name="test", uvm_component parent = null);
+    23              1                          1         super.new(name, parent);
+    24                                                 endfunction 
+    25                                               
+    26                                                 // Build phase
+    27                                                 function void build_phase(uvm_phase phase);
+    28              1                          1         super.build_phase(phase);
+    29                                                   
+    30              1                          1         uart_cfg = uart_config::type_id::create("uart_cfg");
+    31              1                          1         env     = uart_env::type_id::create("env", this);
+    32              1                          1         seq_one = uart_reset_sequence::type_id::create("seq_one");
+    33              1                          1         seq_two = uart_tx_noparity_sequence::type_id::create("seq_two");
+    34              1                          1         seq_three = uart_tx_parity_sequence::type_id::create("seq_three");
+    35              1                          1         seq_four = uart_tx_random_sequence::type_id::create("seq_four");
+    36              1                          1         seq_five = uart_tx_coverage_sequence::type_id::create("seq_five");
+    37                                                      
+    38                                               
+    39              1                          1         uvm_config_db#(uart_config)::set(this, "*", "CGO", uart_cfg);
+    40                                               
+    41                                                   if (!uvm_config_db#(virtual uart_tx_if)::get(this , "" , "UART_LL" , uart_cfg.uart_vif)) begin
+    42              1                    ***0***           `uvm_fatal("build_phase" , "Unable to get virtual interface")
+    43                                                   end 
+    44                                                 endfunction
+    45                                               
+    46                                                 // Run phase
+    47                                                 task run_phase(uvm_phase phase);
+    48              1                          1         super.run_phase(phase);
+    49              1                          1         phase.raise_objection(this);
+    50                                               
+    51              1                          1         `uvm_info("run_phase", "Reset sequence started", UVM_LOW);
+    52              1                          1         seq_one.start(env.agt.sqr);
+    53              1                          1         `uvm_info("run_phase", "Reset sequence finished", UVM_LOW);
+    54                                               
+    55              1                          1         `uvm_info("run_phase", "noparity_sequence  started", UVM_LOW);
+    56              1                          1         seq_two.start(env.agt.sqr);
+    57              1                          1         `uvm_info("run_phase", "noparity_sequence  finished", UVM_LOW);
+    58                                               
+    59              1                          1         `uvm_info("run_phase", "tx_parity_sequence  started", UVM_LOW);
+    60              1                          1         seq_three.start(env.agt.sqr);
+    61              1                          1         `uvm_info("run_phase", "tx_parity_sequence  finished", UVM_LOW);
+    62                                               
+    63                                                   
+    64              1                          1         `uvm_info("run_phase", "Random  sequence started", UVM_LOW);
+    65              1                          1         seq_four.start(env.agt.sqr);
+    66              1                          1         `uvm_info("run_phase", "Random  sequence finished", UVM_LOW);
+    67                                               
+    68                                                   
+    69              1                          1         `uvm_info("run_phase", "Random  sequence started", UVM_LOW);
+    70              1                          1         seq_five.start(env.agt.sqr);
+    71              1                          1         `uvm_info("run_phase", "Random  sequence finished", UVM_LOW);
+    72                                               
+    73                                               
+    74                                                   
+    75                                               
+    76                                               
+    77                                               
+    78              1                          1         phase.drop_objection(this);
+
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_coverage/uart_coverage/UART_CG             97.22%        100          -    Uncovered            
+    covered/total bins:                                    40         41          -                      
+    missing/total bins:                                     1         41          -                      
+    % Hit:                                             97.56%        100          -                      
+    Coverpoint cp_PAR_EN                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       947          1          -    Covered              
+        bin auto[1]                                       273          1          -    Covered              
+    Coverpoint cp_PAR_TYPE                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       608          1          -    Covered              
+        bin auto[1]                                       612          1          -    Covered              
+    Coverpoint cp_P_VALID                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                      1007          1          -    Covered              
+        bin auto[1]                                       212          1          -    Covered              
+    Coverpoint cp_P_DATA                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        ignore_bin u                                      970                     -    Occurred             
+        bin low_vals[0]                                     3          1          -    Covered              
+        bin low_vals[1]                                    46          1          -    Covered              
+        bin low_vals[2]                                    24          1          -    Covered              
+        bin low_vals[3]                                    42          1          -    Covered              
+        bin low_vals[4]                                    26          1          -    Covered              
+        bin low_vals[5]                                    53          1          -    Covered              
+        bin low_vals[6]                                    15          1          -    Covered              
+        bin low_vals[7]                                    41          1          -    Covered              
+    Coverpoint #seq_item_cov.TX_OUT__0#               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       144          1          -    Covered              
+        bin auto[1]                                      1076          1          -    Covered              
+    Coverpoint #seq_item_cov.Busy__1#                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                       999          1          -    Covered              
+        bin auto[1]                                       221          1          -    Covered              
+    Cross cross_PAR_EN_PAR_TYPE                       100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                         130          1          -    Covered              
+            bin <auto[1],auto[0]>                         143          1          -    Covered              
+            bin <auto[0],auto[0]>                         465          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin invalid                            482                     -    Occurred             
+    Cross cross_P_DATA_P_VALID                        100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <low_vals[7],auto[1]>                      34          1          -    Covered              
+            bin <low_vals[6],auto[1]>                      13          1          -    Covered              
+            bin <low_vals[5],auto[1]>                      49          1          -    Covered              
+            bin <low_vals[4],auto[1]>                      23          1          -    Covered              
+            bin <low_vals[3],auto[1]>                      33          1          -    Covered              
+            bin <low_vals[2],auto[1]>                      18          1          -    Covered              
+            bin <low_vals[1],auto[1]>                      39          1          -    Covered              
+            bin <low_vals[0],auto[1]>                       1          1          -    Covered              
+            bin <low_vals[7],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[6],auto[0]>                       2          1          -    Covered              
+            bin <low_vals[5],auto[0]>                       4          1          -    Covered              
+            bin <low_vals[4],auto[0]>                       3          1          -    Covered              
+            bin <low_vals[3],auto[0]>                       9          1          -    Covered              
+            bin <low_vals[2],auto[0]>                       6          1          -    Covered              
+            bin <low_vals[1],auto[0]>                       7          1          -    Covered              
+            bin <low_vals[0],auto[0]>                       1          1          -    Covered              
+    Cross cross_TX_OUT_BUSY                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[1],auto[1]>                          77          1          -    Covered              
+            bin <auto[0],auto[1]>                         144          1          -    Covered              
+            bin <auto[1],auto[0]>                         999          1          -    Covered              
+            bin <auto[0],auto[0]>                           0          1          1    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 97.22%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/c1               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(20)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c2               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(28)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c3               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(36)
+                                                                                21 Covered   
+/uart_top/DUT/ASSERTION/c4               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(44)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c5               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(54)
+                                                                               136 Covered   
+/uart_top/DUT/ASSERTION/c6               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(62)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c7               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(70)
+                                                                                15 Covered   
+/uart_top/DUT/ASSERTION/c8               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(78)
+                                                                               937 Covered   
+/uart_top/DUT/ASSERTION/c9               uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(89)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c10              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(100)
+                                                                                11 Covered   
+/uart_top/DUT/ASSERTION/c11              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(108)
+                                                                                22 Covered   
+/uart_top/DUT/ASSERTION/c12              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(117)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c13              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(126)
+                                                                                14 Covered   
+/uart_top/DUT/ASSERTION/c14              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(135)
+                                                                                 3 Covered   
+/uart_top/DUT/ASSERTION/c15              uart_tx_assertions Verilog  SVA  UART_TX_SVA.sv(144)
+                                                                                15 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 15
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uart_top/DUT/ASSERTION/a_assert
+                     UART_TX_SVA.sv(6)                  0          1
+/uart_top/DUT/ASSERTION/b_assert
+                     UART_TX_SVA.sv(7)                  0          1
+/uart_top/DUT/ASSERTION/c_assert
+                     UART_TX_SVA.sv(8)                  0          1
+/uart_top/DUT/ASSERTION/d_assert
+                     UART_TX_SVA.sv(9)                  0          1
+/uart_top/DUT/ASSERTION/p1
+                     UART_TX_SVA.sv(19)                 0          1
+/uart_top/DUT/ASSERTION/p2
+                     UART_TX_SVA.sv(27)                 0          1
+/uart_top/DUT/ASSERTION/p3
+                     UART_TX_SVA.sv(35)                 0          1
+/uart_top/DUT/ASSERTION/p4
+                     UART_TX_SVA.sv(43)                 0          1
+/uart_top/DUT/ASSERTION/p5
+                     UART_TX_SVA.sv(53)                 0          1
+/uart_top/DUT/ASSERTION/p6
+                     UART_TX_SVA.sv(61)                 0          1
+/uart_top/DUT/ASSERTION/p7
+                     UART_TX_SVA.sv(69)                 0          1
+/uart_top/DUT/ASSERTION/p8
+                     UART_TX_SVA.sv(77)                 0          1
+/uart_top/DUT/ASSERTION/p9
+                     UART_TX_SVA.sv(88)                 0          1
+/uart_top/DUT/ASSERTION/p10
+                     UART_TX_SVA.sv(99)                 0          1
+/uart_top/DUT/ASSERTION/p11
+                     UART_TX_SVA.sv(107)                0          1
+/uart_top/DUT/ASSERTION/p12
+                     UART_TX_SVA.sv(116)                0          1
+/uart_top/DUT/ASSERTION/p13
+                     UART_TX_SVA.sv(125)                0          1
+/uart_top/DUT/ASSERTION/p14
+                     UART_TX_SVA.sv(134)                0          1
+/uart_top/DUT/ASSERTION/p15
+                     UART_TX_SVA.sv(143)                0          1
+/pack_seqs/uart_tx_random_sequence/body/#ublk#169274099#87/immed__90
+                     UART_TX_SEQS_pkg.sv(90)            0          1
+/pack_seqs/uart_tx_coverage_sequence/body/#ublk#169274099#141/immed__144
+                     UART_TX_SEQS_pkg.sv(144)           0          1
+
+Total Coverage By Instance (filtered view): 75.69%
+
